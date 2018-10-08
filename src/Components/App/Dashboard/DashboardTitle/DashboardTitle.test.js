@@ -13,7 +13,6 @@ it('Should render the title', () => {
 	const wrapper = shallow(<DashboardTitle user={dummyUser}/>);
 	expect(wrapper.find("h1")).to.have.lengthOf(1);
 });
-//this is current
 
 it('Should render correct title name', () => {
 	const wrapper = shallow(<DashboardTitle user={dummyUser}/>);
