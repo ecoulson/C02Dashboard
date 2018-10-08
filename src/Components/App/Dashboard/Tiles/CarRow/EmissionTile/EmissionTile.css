@@ -1,0 +1,10 @@
+h1 {
+	font-size: 100px;
+	color: rgb(228, 43, 43);
+	text-decoration: underline;
+}
+
+.emission-label {
+	font-size: 35px;
+	font-style: italic;
+}

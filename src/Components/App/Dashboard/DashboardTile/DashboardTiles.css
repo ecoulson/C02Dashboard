@@ -1,0 +1,17 @@
+.dashboard-tile {
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(60, 98, 141, 0.4);
+	color: white;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.dashboard-tile {
+		margin: 15px;
+	}
+}
+
+.dashboard-tile-header {
+	border-bottom: 3px solid rgba(0,0,0,0.6);
+}

@@ -16,5 +16,5 @@ it('Should render the title', () => {
 
 it('Should render correct title name', () => {
 	const wrapper = shallow(<DashboardTitle user={dummyUser}/>);
-	expect(wrapper.text()).to.equal("John's' Carbon Dashboard");
+	expect(wrapper.text()).to.equal("John's Carbon Dashboard");
 });
